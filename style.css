@@ -67,3 +67,15 @@ body {
 a {
     text-decoration: none;
 }
+
+@media (max-height: 399px) {
+    #bio-links-container {
+        width: 90vw;
+        height: auto;
+    }
+
+    .bio-img {
+        width: 90vw;
+        height: auto;
+    }
+}
